@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'DDC Property Blog',
+  tagline: 'Trợ giúp, hướng dẫn và quy định liên quan bất động sản',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -34,6 +34,21 @@ const config: Config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+
+  plugins: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        hashed: true,
+        language: ['en', 'vi'],
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
+        indexBlog: true,
+        indexDocs: true,
+        indexPages: true,
+      },
+    ],
+  ],
 
   presets: [
     [
@@ -75,9 +90,9 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'My Site',
+      title: 'DDC Property Blog',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'DDC Property Blog',
         src: 'img/logo.svg',
       },
       items: [
@@ -87,12 +102,20 @@ const config: Config = {
           position: 'left',
           label: 'Tutorial',
         },
-        // {
-        //   type: 'doc',
-        //   docId: 'quy-dinh-dang-tin-bat-dong-san',
-        //   position: 'left',
-        //   label: 'Quy định đăng tin',
-        // },
+        {
+          type: 'doc',
+          docId:
+            'huong-dan-va-quy-dinh-dang-tin/huong-dan-dang-tin/dang-tin-tren-may-tinh',
+          position: 'left',
+          label: 'Hướng dẫn đăng tin',
+        },
+        {
+          type: 'doc',
+          docId:
+            'huong-dan-va-quy-dinh-dang-tin/quy-dinh-dang-tin/quy-dinh-dang-tin-bat-dong-san',
+          position: 'left',
+          label: 'Quy định đăng tin',
+        },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',
@@ -100,51 +123,6 @@ const config: Config = {
           position: 'right',
         },
       ],
-    },
-    footer: {
-      style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

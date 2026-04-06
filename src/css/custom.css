@@ -28,3 +28,210 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Doc sidebar theme variables */
+:root {
+  --doc-sidebar-bg: #fff;
+  --doc-sidebar-text: var(--ifm-font-color-base);
+  --doc-sidebar-line: var(--ifm-color-emphasis-200);
+  --doc-sidebar-accent: var(--ifm-color-primary);
+  --doc-sidebar-hover-bg: var(--ifm-color-primary);
+  --doc-sidebar-hover-text: #fff;
+}
+
+/* Desktop sidebar container */
+.theme-doc-sidebar-container {
+  background-color: var(--doc-sidebar-bg);
+  border-right: 1px solid var(--doc-sidebar-line);
+  --ifm-menu-color: var(--doc-sidebar-text);
+  --ifm-menu-color-active: var(--doc-sidebar-accent);
+  --ifm-menu-color-active-background: transparent;
+}
+
+/* Base link color (desktop + mobile) */
+.theme-doc-sidebar-container .menu__link,
+.navbar-sidebar .theme-doc-sidebar-menu .menu__link {
+  color: var(--doc-sidebar-text);
+}
+
+/* Hover color (desktop + mobile) */
+.theme-doc-sidebar-container .menu__link:hover,
+.navbar-sidebar .theme-doc-sidebar-menu .menu__link:hover {
+  color: var(--doc-sidebar-hover-text);
+  background: var(--doc-sidebar-hover-bg);
+}
+
+/* Infima forces collapsible hover background to none !important */
+.theme-doc-sidebar-container .menu__list-item-collapsible .menu__link:hover,
+.navbar-sidebar
+  .theme-doc-sidebar-menu
+  .menu__list-item-collapsible
+  .menu__link:hover {
+  color: var(--doc-sidebar-hover-text) !important;
+  background: var(--doc-sidebar-hover-bg) !important;
+}
+
+/* Active leaf links */
+.theme-doc-sidebar-container .menu__link--active:not(.menu__link--sublist),
+.navbar-sidebar
+  .theme-doc-sidebar-menu
+  .menu__link--active:not(.menu__link--sublist) {
+  color: var(--doc-sidebar-accent);
+  font-weight: 600;
+}
+
+/* Infima keeps active link color on :hover; force contrast */
+.theme-doc-sidebar-container .menu__link--active:not(.menu__link--sublist):hover,
+.navbar-sidebar
+  .theme-doc-sidebar-menu
+  .menu__link--active:not(.menu__link--sublist):hover {
+  color: var(--doc-sidebar-hover-text) !important;
+  background: var(--doc-sidebar-hover-bg) !important;
+}
+
+.theme-doc-sidebar-container .menu__link--active:not(.menu__link--sublist)::before {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin-right: 0.45rem;
+  border-radius: 50%;
+  background: var(--doc-sidebar-accent);
+  vertical-align: middle;
+  transform: translateY(-1px);
+}
+
+.theme-doc-sidebar-container
+  .menu__link--active:not(.menu__link--sublist):hover::before {
+  background: var(--doc-sidebar-hover-text);
+}
+
+/* Active category links */
+.theme-doc-sidebar-container .menu__link--sublist.menu__link--active,
+.navbar-sidebar .theme-doc-sidebar-menu .menu__link--sublist.menu__link--active {
+  color: var(--doc-sidebar-text);
+  background: transparent;
+}
+
+.theme-doc-sidebar-container .menu__link--sublist.menu__link--active:hover,
+.navbar-sidebar
+  .theme-doc-sidebar-menu
+  .menu__link--sublist.menu__link--active:hover {
+  color: var(--doc-sidebar-hover-text) !important;
+  background: var(--doc-sidebar-hover-bg) !important;
+}
+
+.theme-doc-sidebar-container .menu__list .menu__list {
+  margin-left: 0.45rem;
+  padding-left: 0.65rem;
+  border-left: 1px solid var(--doc-sidebar-line);
+}
+
+.theme-doc-sidebar-container .menu__caret::before {
+  opacity: 0.7;
+}
+
+/* Dark mode overrides */
+[data-theme='dark'] {
+  --doc-sidebar-bg: #141414;
+  --doc-sidebar-text: #fff;
+  --doc-sidebar-line: rgba(255, 255, 255, 0.12);
+}
+
+[data-theme='dark'] .theme-doc-sidebar-container .menu__caret::before {
+  filter: brightness(0) invert(1);
+  opacity: 0.8;
+}
+
+/* FAQ question-answer blocks */
+:root {
+  --faq-box-border: #e8e8e8;
+  --faq-question-bg: #fff;
+  --faq-question-text: #3a312d;
+  --faq-answer-bg: #fff;
+  --faq-answer-text: var(--ifm-font-color-base);
+  --faq-link-color: #7a2eb8;
+}
+
+[data-theme='dark'] {
+  --faq-box-border: rgba(255, 255, 255, 0.18);
+  --faq-question-bg: rgba(255, 255, 255, 0.03);
+  --faq-question-text: #f3f4f6;
+  --faq-answer-bg: rgba(255, 255, 255, 0.01);
+  --faq-answer-text: #e5e7eb;
+  --faq-link-color: #c084fc;
+}
+
+.theme-doc-markdown h3 {
+  margin-top: 1.25rem;
+  margin-bottom: 0.6rem;
+}
+
+.theme-doc-markdown details {
+  margin: 0 0 0.55rem;
+  border: 1px solid var(--faq-box-border);
+  background: var(--faq-question-bg);
+}
+
+.theme-doc-markdown details > summary {
+  position: relative;
+  list-style: none;
+  cursor: pointer;
+  padding: 0.62rem 1.95rem 0.62rem 0.82rem;
+  color: var(--faq-question-text);
+  font-size: 0.96rem;
+  font-weight: 650;
+  line-height: 1.35;
+}
+
+.theme-doc-markdown details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.theme-doc-markdown details > summary::after {
+  content: '›';
+  position: absolute;
+  right: 0.72rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #8b8b8b;
+  font-size: 1.18rem;
+  line-height: 1;
+}
+
+.theme-doc-markdown details[open] > summary {
+  border-bottom: 1px solid var(--faq-box-border);
+}
+
+.theme-doc-markdown details[open] > summary::after {
+  content: '⌃';
+  font-size: 0.95rem;
+}
+
+.theme-doc-markdown details > *:not(summary) {
+  margin: 0;
+  padding: 0.72rem 0.82rem 0.7rem;
+  color: var(--faq-answer-text);
+  background: var(--faq-answer-bg);
+}
+
+.theme-doc-markdown details > *:not(summary) + * {
+  padding-top: 0;
+}
+
+.theme-doc-markdown details > ul,
+.theme-doc-markdown details > ol {
+  padding-left: 2rem;
+}
+
+.theme-doc-markdown details > p,
+.theme-doc-markdown details > ul,
+.theme-doc-markdown details > ol {
+  border: 1px solid var(--faq-box-border);
+  border-top: 0;
+}
+
+.theme-doc-markdown details a {
+  color: var(--faq-link-color);
+  font-weight: 600;
+}
