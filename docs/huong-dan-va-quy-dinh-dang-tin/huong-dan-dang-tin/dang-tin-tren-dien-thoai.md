@@ -13,7 +13,7 @@ Bạn có thể đăng tin trên điện thoại theo một trong hai hướng: 
 
 ### Bước 1
 
-Mở trình duyệt (Safari, Chrome, …), truy cập website DDC Property Blog, **đăng nhập** tài khoản thành viên.
+Mở trình duyệt (Safari, Chrome, …), truy cập website DDCProperty, **đăng nhập** tài khoản thành viên.
 
 ### Bước 2
 

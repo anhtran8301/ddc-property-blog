@@ -9,7 +9,7 @@ description: Nguyên tắc và quy trình tiếp nhận, xử lý khiếu nại 
 
 ## 1. Nguyên tắc
 
-- DDC Property Blog là nền tảng kết nối thông tin; các bên giao dịch tự chịu trách nhiệm thẩm định.
+- DDCProperty là nền tảng kết nối thông tin; các bên giao dịch tự chịu trách nhiệm thẩm định.
 - Khi có khiếu nại, ban quản trị phối hợp xác minh và áp dụng biện pháp xử lý phù hợp.
 - Ưu tiên thương lượng/hòa giải; nếu không đạt, các bên thực hiện theo trình tự pháp luật.
 

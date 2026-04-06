@@ -7,7 +7,7 @@ description: Điều khoản truy cập và sử dụng nền tảng thông tin 
 
 # Điều khoản thỏa thuận
 
-Điều khoản này quy định trách nhiệm và giới hạn sử dụng khi truy cập DDC Property Blog.
+Điều khoản này quy định trách nhiệm và giới hạn sử dụng khi truy cập DDCProperty.
 
 ## Nội dung chính
 

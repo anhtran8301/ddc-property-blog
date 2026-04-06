@@ -7,7 +7,7 @@ description: Giải đáp các vấn đề về phương thức thanh toán, hó
 
 # Câu hỏi liên quan đến Thanh toán - Nạp tiền
 
-Nội dung tham khảo từ [Batdongsan](https://trogiup.batdongsan.com.vn/docs/cau-hoi-lien-quan-thanh-toan-nap-tien), đã điều chỉnh theo tài liệu DDC Property Blog.
+Nội dung tham khảo từ [Batdongsan](https://trogiup.batdongsan.com.vn/docs/cau-hoi-lien-quan-thanh-toan-nap-tien), đã điều chỉnh theo tài liệu DDCProperty.
 
 ## 1) Hình thức thanh toán
 

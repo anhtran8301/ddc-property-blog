@@ -2,16 +2,16 @@
 sidebar_position: 1
 title: Điều khoản sử dụng dịch vụ
 sidebar_label: Điều khoản sử dụng dịch vụ
-description: Điều khoản áp dụng khi đặt mua và sử dụng dịch vụ trên DDC Property Blog.
+description: Điều khoản áp dụng khi đặt mua và sử dụng dịch vụ trên DDCProperty.
 ---
 
 # Điều khoản sử dụng dịch vụ
 
-Nội dung tham khảo cấu trúc từ [Batdongsan](https://trogiup.batdongsan.com.vn/docs/dieu-khoan-su-dung-dich-vu), được biên soạn lại cho DDC Property Blog.
+Nội dung tham khảo cấu trúc từ [Batdongsan](https://trogiup.batdongsan.com.vn/docs/dieu-khoan-su-dung-dich-vu), được biên soạn lại cho DDCProperty.
 
 ## 1. Phạm vi dịch vụ
 
-- DDC Property Blog cung cấp dịch vụ đăng tải và quảng bá thông tin bất động sản trên nền tảng.
+- DDCProperty cung cấp dịch vụ đăng tải và quảng bá thông tin bất động sản trên nền tảng.
 - Dịch vụ được kích hoạt khi khách hàng hoàn tất điều kiện thanh toán hoặc số dư tài khoản còn đủ để sử dụng.
 
 ## 2. Phí và thanh toán
@@ -23,7 +23,7 @@ Nội dung tham khảo cấu trúc từ [Batdongsan](https://trogiup.batdongsan.
 ## 3. Quyền và nghĩa vụ các bên
 
 - Khách hàng chịu trách nhiệm về tính hợp pháp và chính xác của nội dung đăng tải.
-- DDC Property Blog có quyền biên tập/gỡ nội dung vi phạm và tạm ngừng dịch vụ khi có căn cứ vi phạm điều khoản.
+- DDCProperty có quyền biên tập/gỡ nội dung vi phạm và tạm ngừng dịch vụ khi có căn cứ vi phạm điều khoản.
 
 ## 4. Chấm dứt và giải quyết tranh chấp
 

@@ -15,7 +15,7 @@ export default function Home(): ReactNode {
       <header className={styles.hero}>
         <div className={styles.heroInner}>
           <Heading as="h1" className={styles.heroTitle}>
-            Xin chào! <strong>{siteConfig.title}</strong> có thể giúp gì cho bạn?
+            Xin chào! <br /> <strong>{siteConfig.title}</strong> có thể giúp gì cho bạn?
           </Heading>
           <p className={styles.heroTagline}>{siteConfig.tagline}</p>
         </div>

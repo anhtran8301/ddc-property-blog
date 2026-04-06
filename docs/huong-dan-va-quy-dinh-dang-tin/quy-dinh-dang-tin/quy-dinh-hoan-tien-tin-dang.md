@@ -20,4 +20,4 @@ Quy định dưới đây mô tả **nguyên tắc hoàn tiền tự động** k
 
 ## Liên hệ xử lý hoàn tiền
 
-Trường hợp hoàn tiền phát sinh trên hệ thống nhưng cần **đối soát thủ công**, vui lòng liên hệ **tổng đài / email CSKH** do DDC Property Blog công bố trên website.
+Trường hợp hoàn tiền phát sinh trên hệ thống nhưng cần **đối soát thủ công**, vui lòng liên hệ **tổng đài / email CSKH** do DDCProperty công bố trên website.

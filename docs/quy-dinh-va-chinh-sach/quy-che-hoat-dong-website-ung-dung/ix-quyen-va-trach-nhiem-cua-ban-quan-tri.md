@@ -1,11 +1,11 @@
 ---
 sidebar_position: 9
-title: IX. Quyền và trách nhiệm của Ban quản trị DDC Property Blog
+title: IX. Quyền và trách nhiệm của Ban quản trị DDCProperty
 sidebar_label: IX. Quyền và trách nhiệm Ban quản trị
 description: Quyền quản trị nền tảng và trách nhiệm vận hành, kiểm soát nội dung.
 ---
 
-# IX. Quyền và trách nhiệm của Ban quản trị DDC Property Blog
+# IX. Quyền và trách nhiệm của Ban quản trị DDCProperty
 
 Ban quản trị có quyền:
 

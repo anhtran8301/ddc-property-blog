@@ -7,7 +7,7 @@ description: Các bước áp dụng voucher đăng tin và đẩy tin trong Gó
 
 # Hướng dẫn sử dụng Gói Hội viên
 
-Nội dung tham khảo từ [Batdongsan](https://trogiup.batdongsan.com.vn/docs/huong-dan-su-dung-goi-hoi-vien), được biên soạn lại theo giao diện DDC Property Blog.
+Nội dung tham khảo từ [Batdongsan](https://trogiup.batdongsan.com.vn/docs/huong-dan-su-dung-goi-hoi-vien), được biên soạn lại theo giao diện DDCProperty.
 
 ## 1) Dùng voucher đăng tin / đăng lại
 

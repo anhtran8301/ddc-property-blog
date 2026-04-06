@@ -2,12 +2,12 @@
 sidebar_position: 1
 title: Hướng dẫn đăng tin trên máy tính
 sidebar_label: Đăng tin trên máy tính
-description: Các bước đăng tin bất động sản trên trình duyệt máy tính tại DDC Property Blog.
+description: Các bước đăng tin bất động sản trên trình duyệt máy tính tại DDCProperty.
 ---
 
 # Hướng dẫn đăng tin trên máy tính
 
-Bạn có thể đăng tin trên **DDC Property Blog** theo các bước sau. Nội dung tham khảo cấu trúc từ [Hướng dẫn Batdongsan.com.vn](https://trogiup.batdongsan.com.vn/docs/dang-tin-tren-batdongsancomvn); vui lòng điều chỉnh theo giao diện thực tế của hệ thống bạn.
+Bạn có thể đăng tin trên **DDCProperty** theo các bước sau. Nội dung tham khảo cấu trúc từ [Hướng dẫn Batdongsan.com.vn](https://trogiup.batdongsan.com.vn/docs/dang-tin-tren-batdongsancomvn); vui lòng điều chỉnh theo giao diện thực tế của hệ thống bạn.
 
 ## 1. Đăng nhập tài khoản
 

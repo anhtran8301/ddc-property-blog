@@ -7,7 +7,7 @@ description: Giới hạn trách nhiệm trong các trường hợp nằm ngoài
 
 # 15. Tuyên bố từ chối trách nhiệm
 
-DDC Property Blog không chịu trách nhiệm cho:
+DDCProperty không chịu trách nhiệm cho:
 
 - Thông tin người dùng tự nguyện chia sẻ với bên thứ ba ngoài nền tảng.
 - Sự cố phát sinh do lỗi từ bên thứ ba hoặc nguyên nhân khách quan ngoài tầm kiểm soát hợp lý.

@@ -1,0 +1,8 @@
+{
+  "label": "Thanh toán - Nạp tiền",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Thông tin thanh toán, nạp tiền, hóa đơn và các quy định liên quan tài khoản tiền."
+  }
+}

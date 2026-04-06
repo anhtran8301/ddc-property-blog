@@ -1,9 +1,9 @@
 import type {ReactNode} from 'react';
-import {useCallback, useId, useState} from 'react';
+import {useId, useState} from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
-import {useHistory} from '@docusaurus/router';
 import Heading from '@theme/Heading';
+import SearchBar from '@theme/SearchBar';
 
 import styles from './styles.module.css';
 
@@ -14,12 +14,91 @@ type CategoryCard = {
   icon: ReactNode;
 };
 
-function CardChevronIcon(): ReactNode {
+function BuildingStoreIcon(): ReactNode {
   return (
     <svg className={styles.cardIconSvg} viewBox="0 0 24 24" aria-hidden>
       <path
-        fill="currentColor"
-        d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6-6-6z"
+        d="M3 21h18M4 21V8l8-4 8 4v13M9 11h6M9 15h6M10 21v-3h4v3"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.8"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
+function WalletIcon(): ReactNode {
+  return (
+    <svg className={styles.cardIconSvg} viewBox="0 0 24 24" aria-hidden>
+      <path
+        d="M4 7a2 2 0 0 1 2-2h11a3 3 0 0 1 3 3v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V7Zm0 3h16M16.5 14.5h.01"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.8"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
+function FileDescriptionIcon(): ReactNode {
+  return (
+    <svg className={styles.cardIconSvg} viewBox="0 0 24 24" aria-hidden>
+      <path
+        d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8l-5-5Zm0 0v5h5M9 13h6M9 17h6"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.8"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
+function UserCircleIcon(): ReactNode {
+  return (
+    <svg className={styles.cardIconSvg} viewBox="0 0 24 24" aria-hidden>
+      <path
+        d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Zm0-10a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-4.5 6.8a6 6 0 0 1 9 0"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.8"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
+function TagIcon(): ReactNode {
+  return (
+    <svg className={styles.cardIconSvg} viewBox="0 0 24 24" aria-hidden>
+      <path
+        d="M20 10 12 18a2 2 0 0 1-2.83 0L4 12.83V4h8.83L20 11.17A2 2 0 0 1 20 10Zm-11-4h.01"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.8"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
+function ShieldCheckIcon(): ReactNode {
+  return (
+    <svg className={styles.cardIconSvg} viewBox="0 0 24 24" aria-hidden>
+      <path
+        d="M12 3 5 6v6c0 4.97 3 7.93 7 9 4-1.07 7-4.03 7-9V6l-7-3Zm-3 9 2 2 4-4"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.8"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );
@@ -30,39 +109,39 @@ const categoryCards: CategoryCard[] = [
     title: 'Sản phẩm dịch vụ',
     description:
       'Kênh quảng bá và tài liệu giới thiệu dịch vụ dành cho bất động sản của bạn.',
-    to: '/docs/intro',
-    icon: <CardChevronIcon />,
+    to: '/docs/category/sản-phẩm-dịch-vụ',
+    icon: <BuildingStoreIcon />,
   },
   {
     title: 'Thanh toán — Nạp tiền',
     description:
       'Hướng dẫn về thanh toán, hóa đơn và tra cứu thông tin giao dịch (khi áp dụng).',
-    to: '/docs/intro',
-    icon: <CardChevronIcon />,
+    to: '/docs/category/thanh-toán---nạp-tiền',
+    icon: <WalletIcon />,
   },
   {
     title: 'Hướng dẫn và quy định đăng tin',
     description: 'Cách đăng tin để thu hút khách hàng tiềm năng và tuân thủ quy định.',
-    to: '/docs/quy-dinh-dang-tin-bat-dong-san',
-    icon: <CardChevronIcon />,
+    to: '/docs/category/hướng-dẫn-và-quy-định-đăng-tin',
+    icon: <FileDescriptionIcon />,
   },
   {
     title: 'Tài khoản người dùng',
     description: 'Khởi tạo loại tài khoản phù hợp và quản lý tài khoản hiệu quả.',
-    to: '/docs/intro',
-    icon: <CardChevronIcon />,
+    to: '/docs/category/tài-khoản-người-dùng',
+    icon: <UserCircleIcon />,
   },
   {
     title: 'Chương trình khuyến mãi',
     description: 'Cập nhật các chương trình ưu đãi dành cho khách hàng qua blog.',
-    to: '/blog',
-    icon: <CardChevronIcon />,
+    to: '/docs/category/chương-trình-khuyến-mãi',
+    icon: <TagIcon />,
   },
   {
     title: 'Quy định và chính sách',
     description: 'Các quy định và chính sách khi sử dụng dịch vụ và đăng tin.',
-    to: '/docs/quy-dinh-dang-tin-bat-dong-san',
-    icon: <CardChevronIcon />,
+    to: '/docs/category/quy-định-và-chính-sách',
+    icon: <ShieldCheckIcon />,
   },
 ];
 
@@ -108,7 +187,7 @@ const faqEntries: FaqEntry[] = [
     answer: (
       <>
         Bạn có thể bắt đầu từ trang{' '}
-        <Link to="/docs/intro">Giới thiệu</Link> và các mục hướng dẫn trong phần Tutorial, hoặc dùng ô tìm kiếm (Ctrl+K) để mở nhanh nội dung cần đọc.
+        <Link to="/">Giới thiệu</Link> và các mục hướng dẫn trong phần Tutorial, hoặc dùng ô tìm kiếm (Ctrl+K) để mở nhanh nội dung cần đọc.
       </>
     ),
   },
@@ -168,39 +247,11 @@ function FaqAccordion(): ReactNode {
 }
 
 function SearchPrompt(): ReactNode {
-  const history = useHistory();
-
-  const handleClick = useCallback(() => {
-    const searchInput = document.querySelector(
-      'input.navbar__search-input',
-    ) as HTMLElement | null;
-    const docSearchBtn = document.querySelector(
-      '.DocSearch-Button',
-    ) as HTMLElement | null;
-    const el = searchInput || docSearchBtn;
-    if (el) {
-      el.focus();
-      el.click();
-    } else {
-      history.push('/search');
-    }
-  }, [history]);
-
   return (
     <div className={styles.searchWrap}>
-      <button
-        type="button"
-        className={styles.searchFakeInput}
-        onClick={handleClick}
-        aria-label="Mở tìm kiếm">
-        <span className={styles.searchPlaceholder}>
-          Mời bạn nhập câu hỏi hoặc từ khóa
-        </span>
-        <kbd className={styles.kbdHint} title="Phím tắt">
-          Ctrl
-          <span className={styles.kbdPlus}>+</span>K
-        </kbd>
-      </button>
+      <div className={styles.homeSearchHost}>
+        <SearchBar />
+      </div>
     </div>
   );
 }

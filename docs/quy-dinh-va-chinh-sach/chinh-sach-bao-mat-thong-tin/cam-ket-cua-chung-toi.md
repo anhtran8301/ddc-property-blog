@@ -7,7 +7,7 @@ description: Cam kết bảo vệ dữ liệu cá nhân trong quá trình cung c
 
 # 13. Cam kết của chúng tôi
 
-DDC Property Blog cam kết:
+DDCProperty cam kết:
 
 - Không mua bán dữ liệu cá nhân trái phép.
 - Chỉ xử lý và chia sẻ dữ liệu theo phạm vi hợp pháp đã công bố.

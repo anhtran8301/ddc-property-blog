@@ -9,7 +9,7 @@ description: Các nhóm đối tượng có thể tiếp cận dữ liệu theo 
 
 Các nhóm có thể tiếp cận dữ liệu trong phạm vi hợp pháp:
 
-- Nhân sự có thẩm quyền của DDC Property Blog.
+- Nhân sự có thẩm quyền của DDCProperty.
 - Đối tác cung cấp dịch vụ kỹ thuật/thanh toán theo hợp đồng bảo mật.
 - Cơ quan nhà nước có thẩm quyền khi có yêu cầu hợp lệ.
 

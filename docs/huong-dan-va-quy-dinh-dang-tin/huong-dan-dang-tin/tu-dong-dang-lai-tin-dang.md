@@ -21,4 +21,4 @@ Chọn tin cần cấu hình. Ở menu thao tác (thường là **ba chấm** ho
 
 Khi tính năng hoạt động, tin có thể được **đăng lại ngay khi hết hạn**. Mỗi lần đăng lại, phí (nếu có) thường được **tính theo từng lần** theo bảng giá hiện hành.
 
-Nếu giao diện thực tế khác tên nút / vị trí menu, hãy làm theo nhãn tương đương trên hệ thống DDC Property Blog hoặc liên hệ CSKH.
+Nếu giao diện thực tế khác tên nút / vị trí menu, hãy làm theo nhãn tương đương trên hệ thống DDCProperty hoặc liên hệ CSKH.

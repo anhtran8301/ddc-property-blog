@@ -9,5 +9,5 @@ description: Các rủi ro kỹ thuật và biện pháp phối hợp xử lý s
 
 - Hệ thống luôn được theo dõi để giảm thiểu rủi ro kỹ thuật.
 - Trong tình huống bất khả kháng hoặc tấn công mạng, có thể phát sinh gián đoạn dịch vụ.
-- DDC Property Blog sẽ kích hoạt quy trình ứng cứu, thông báo và khắc phục trong phạm vi trách nhiệm.
+- DDCProperty sẽ kích hoạt quy trình ứng cứu, thông báo và khắc phục trong phạm vi trách nhiệm.
 

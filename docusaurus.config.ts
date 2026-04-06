@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'DDC Property Blog',
+  title: 'DDCProperty',
   tagline: 'Trợ giúp, hướng dẫn và quy định liên quan bất động sản',
   favicon: 'img/favicon.ico',
 
@@ -90,39 +90,12 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'DDC Property Blog',
+      title: 'Trung tâm hỗ trợ khách hàng',
       logo: {
-        alt: 'DDC Property Blog',
-        src: 'img/logo.svg',
+        alt: 'Trung tâm hỗ trợ khách hàng',
+        src: 'img/logo-icon-color.png',
       },
-      items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial',
-        },
-        {
-          type: 'doc',
-          docId:
-            'huong-dan-va-quy-dinh-dang-tin/huong-dan-dang-tin/dang-tin-tren-may-tinh',
-          position: 'left',
-          label: 'Hướng dẫn đăng tin',
-        },
-        {
-          type: 'doc',
-          docId:
-            'huong-dan-va-quy-dinh-dang-tin/quy-dinh-dang-tin/quy-dinh-dang-tin-bat-dong-san',
-          position: 'left',
-          label: 'Quy định đăng tin',
-        },
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
-        },
-      ],
+      items: [],
     },
     prism: {
       theme: prismThemes.github,

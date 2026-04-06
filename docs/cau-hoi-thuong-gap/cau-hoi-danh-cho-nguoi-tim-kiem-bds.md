@@ -7,7 +7,7 @@ description: Hướng dẫn tìm kiếm bất động sản, nhận bản tin em
 
 # Câu hỏi dành cho người tìm kiếm Bất động sản
 
-Nội dung tham khảo từ [Batdongsan](https://trogiup.batdongsan.com.vn/docs/cau-hoi-danh-cho-nguoi-tim-kiem-bds), được viết lại cho DDC Property Blog.
+Nội dung tham khảo từ [Batdongsan](https://trogiup.batdongsan.com.vn/docs/cau-hoi-danh-cho-nguoi-tim-kiem-bds), được viết lại cho DDCProperty.
 
 ## I. Tìm kiếm bất động sản
 

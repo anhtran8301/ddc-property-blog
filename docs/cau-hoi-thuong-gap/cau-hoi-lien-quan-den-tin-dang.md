@@ -7,7 +7,7 @@ description: Tổng hợp câu hỏi thường gặp về loại tin, đăng tin
 
 # Câu hỏi liên quan đến Tin đăng
 
-Nội dung tham khảo từ [Batdongsan](https://trogiup.batdongsan.com.vn/docs/cau-hoi-lien-quan-den-tin-dang), được biên soạn lại cho DDC Property Blog.
+Nội dung tham khảo từ [Batdongsan](https://trogiup.batdongsan.com.vn/docs/cau-hoi-lien-quan-den-tin-dang), được biên soạn lại cho DDCProperty.
 
 ## I. Loại tin và cách đăng tin
 

@@ -7,9 +7,9 @@ description: Giới thiệu phạm vi, mục tiêu và hiệu lực chính sách
 
 # 1. Giới thiệu về Chính sách bảo mật thông tin
 
-Tham khảo cấu trúc từ [trang mẫu](https://trogiup.batdongsan.com.vn/docs/gioi-thieu-ve-chinh-sach-bao-mat-thong-tin), nội dung này áp dụng cho DDC Property Blog.
+Tham khảo cấu trúc từ [trang mẫu](https://trogiup.batdongsan.com.vn/docs/gioi-thieu-ve-chinh-sach-bao-mat-thong-tin), nội dung này áp dụng cho DDCProperty.
 
-Chính sách này giải thích cách DDC Property Blog thu thập, sử dụng, lưu trữ và bảo vệ thông tin cá nhân khi bạn sử dụng dịch vụ trên website/ứng dụng.
+Chính sách này giải thích cách DDCProperty thu thập, sử dụng, lưu trữ và bảo vệ thông tin cá nhân khi bạn sử dụng dịch vụ trên website/ứng dụng.
 
 - Chính sách có thể được cập nhật theo thời gian.
 - Khi tiếp tục sử dụng dịch vụ sau khi có cập nhật, người dùng được hiểu là đã đọc và đồng ý với phiên bản mới.

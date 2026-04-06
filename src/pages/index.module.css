@@ -1,10 +1,28 @@
 .hero {
-  padding: 3rem 1rem 2rem;
-  background: var(--ifm-background-surface-color);
-  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  position: relative;
+  overflow: hidden;
+  min-height: 19rem;
+  padding: 3.5rem 1rem 2.75rem;
+  background-image:
+    linear-gradient(rgba(16, 18, 23, 0.2), rgba(16, 18, 23, 0.2)),
+    url('/img/dai-dong-cat-ho-tro-khach-hang-background-1.jpg');
+  background-position: 62% bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.2));
+  pointer-events: none;
 }
 
 .heroInner {
+  position: relative;
+  z-index: 1;
   max-width: 48rem;
   margin: 0 auto;
   text-align: center;
@@ -15,22 +33,24 @@
   font-weight: 600;
   line-height: 1.35;
   margin-bottom: 0.75rem;
-  color: var(--ifm-font-color-base);
+  color: #fff;
 }
 
 .heroTitle strong {
   font-weight: 700;
-  color: var(--ifm-color-primary);
+  color: #fff;
 }
 
 .heroTagline {
   margin: 0;
   font-size: 1.05rem;
-  color: var(--ifm-color-emphasis-700);
+  color: rgba(255, 255, 255, 0.92);
 }
 
 @media screen and (max-width: 996px) {
   .hero {
-    padding: 2rem 1rem 1.5rem;
+    min-height: 14rem;
+    padding: 2.5rem 1rem 2rem;
+    background-position: 60% bottom;
   }
 }

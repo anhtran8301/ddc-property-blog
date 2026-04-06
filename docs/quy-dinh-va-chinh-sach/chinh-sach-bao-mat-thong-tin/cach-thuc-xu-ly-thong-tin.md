@@ -7,7 +7,7 @@ description: Mô tả nguyên tắc vận hành hệ thống xử lý dữ liệ
 
 # 11. Cách thức xử lý thông tin
 
-DDC Property Blog xử lý thông tin theo nguyên tắc:
+DDCProperty xử lý thông tin theo nguyên tắc:
 
 - Đúng mục đích, tối thiểu dữ liệu, minh bạch và có căn cứ pháp lý.
 - Áp dụng cơ chế phân quyền truy cập, ghi log và mã hóa phù hợp.

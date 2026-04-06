@@ -12,7 +12,7 @@ Nội dung tham khảo theo cấu trúc tài liệu hỗ trợ tại [Batdongsan
 
 ## I. Tổng quan và phạm vi áp dụng
 
-- Nội quy này áp dụng cho tất cả tin đăng và tài khoản trên **DDC Property Blog** (và các kênh liên quan do đơn vị vận hành quản lý).
+- Nội quy này áp dụng cho tất cả tin đăng và tài khoản trên **DDCProperty** (và các kênh liên quan do đơn vị vận hành quản lý).
 - **Mục đích:** Đảm bảo tính chính xác, minh bạch của thông tin, tuân thủ pháp luật và mang lại trải nghiệm tốt nhất cho người dùng.
 - Việc đăng tin đồng nghĩa với việc đã đọc, hiểu và chấp thuận toàn bộ nội dung dưới đây.
 
@@ -142,4 +142,4 @@ Tùy mức độ vi phạm, ban quản trị website có thể áp dụng:
 
 ### 7.4. Cập nhật và hiệu lực
 
-**DDC Property Blog** có quyền sửa đổi, bổ sung Quy định đăng tin này tại từng thời điểm nhằm phù hợp với hoạt động cung cấp dịch vụ và quy định của pháp luật (nếu có). Mọi sửa đổi, bổ sung sẽ được thông báo đến khách hàng và có hiệu lực theo nội dung thông báo. Bằng việc tiếp tục truy cập nền tảng hoặc/và sử dụng dịch vụ sau thời điểm sửa đổi, bổ sung có hiệu lực, khách hàng được xem là đã đọc, hiểu rõ và đồng ý chịu sự ràng buộc bởi Quy định đăng tin được sửa đổi, bổ sung.
+**DDCProperty** có quyền sửa đổi, bổ sung Quy định đăng tin này tại từng thời điểm nhằm phù hợp với hoạt động cung cấp dịch vụ và quy định của pháp luật (nếu có). Mọi sửa đổi, bổ sung sẽ được thông báo đến khách hàng và có hiệu lực theo nội dung thông báo. Bằng việc tiếp tục truy cập nền tảng hoặc/và sử dụng dịch vụ sau thời điểm sửa đổi, bổ sung có hiệu lực, khách hàng được xem là đã đọc, hiểu rõ và đồng ý chịu sự ràng buộc bởi Quy định đăng tin được sửa đổi, bổ sung.
