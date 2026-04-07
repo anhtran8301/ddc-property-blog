@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkddc_property_blog=globalThis.webpackChunkddc_property_blog||[]).push([[5350],{3254(o){o.exports=JSON.parse('{"metadata":{"permalink":"/ddc-property-blog/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
