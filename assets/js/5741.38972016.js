@@ -1,0 +1,1 @@
+(globalThis.webpackChunkddc_property_blog=globalThis.webpackChunkddc_property_blog||[]).push([[5741],{5741(){}}]);

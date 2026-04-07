@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkddc_property_blog=globalThis.webpackChunkddc_property_blog||[]).push([[1903],{1912(o){o.exports=JSON.parse('{"blogBasePath":"/ddc-property-blog/blog","blogTitle":"Blog","authorsListPath":"/ddc-property-blog/blog/authors"}')}}]);
