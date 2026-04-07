@@ -129,23 +129,6 @@
   background: var(--doc-sidebar-hover-bg) !important;
 }
 
-.theme-doc-sidebar-container .menu__link--active:not(.menu__link--sublist)::before {
-  content: '';
-  display: inline-block;
-  width: 6px;
-  height: 6px;
-  margin-right: 0.45rem;
-  border-radius: 50%;
-  background: var(--doc-sidebar-accent);
-  vertical-align: middle;
-  transform: translateY(-1px);
-}
-
-.theme-doc-sidebar-container
-  .menu__link--active:not(.menu__link--sublist):hover::before {
-  background: var(--doc-sidebar-hover-text);
-}
-
 /* Active category links */
 .theme-doc-sidebar-container .menu__link--sublist.menu__link--active,
 .navbar-sidebar .theme-doc-sidebar-menu .menu__link--sublist.menu__link--active {
@@ -274,4 +257,44 @@
 .theme-doc-markdown details a {
   color: var(--faq-link-color);
   font-weight: 600;
+}
+
+/* Blog: avatar tác giả (logo) bo tròn giống mẫu Federico */
+article .avatar img,
+.blog-list-page article .avatar img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Blog: iframe YouTube full-width, tỷ lệ 16:9 */
+.blog-youtube-embed {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  margin: 1rem 0 1.25rem;
+}
+
+.blog-youtube-embed iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* Blog: tiêu đề bài — theme dùng CSS module .title_* { font-size: 3rem } load sau custom.css, cần ghi đè mạnh */
+.theme-blog-list-page article header h2[class*="title"],
+.theme-blog-post-page article header h1[class*="title"] {
+  font-size: 2rem !important;
+}
+
+@media (max-width: 576px) {
+  .theme-blog-list-page article header h2[class*="title"],
+  .theme-blog-post-page article header h1[class*="title"] {
+    font-size: 1.75rem !important;
+  }
 }

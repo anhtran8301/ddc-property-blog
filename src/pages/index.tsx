@@ -17,10 +17,22 @@ export default function Home(): ReactNode {
       <header className={clsx('hero', 'hero--primary', styles.heroBanner)}>
         <HomepageHeroBlob />
         <div className={clsx('container', styles.heroContent)}>
-          <Heading as="h1" className="hero__title">
-            Xin chào! <br /> <strong>{siteConfig.title}</strong> có thể giúp gì cho bạn?
-          </Heading>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
+          <div className={styles.heroRow}>
+            <img
+              className={styles.heroAvatar}
+              src="/img/DDC-WHITE.png"
+              alt="DDCProperty"
+              width={220}
+              height={220}
+              decoding="async"
+            />
+            <div className={styles.heroText}>
+              <Heading as="h1" className="hero__title">
+                Xin chào! <br /> <strong>{siteConfig.title}</strong> có thể giúp gì cho bạn?
+              </Heading>
+              <p className="hero__subtitle">{siteConfig.tagline}</p>
+            </div>
+          </div>
         </div>
       </header>
 

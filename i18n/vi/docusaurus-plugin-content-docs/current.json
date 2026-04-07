@@ -1,0 +1,94 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Thanh toán - Nạp tiền": {
+    "message": "Thanh toán - Nạp tiền",
+    "description": "The label for category 'Thanh toán - Nạp tiền' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Thanh toán - Nạp tiền.link.generated-index.description": {
+    "message": "Thông tin thanh toán, nạp tiền, hóa đơn và các quy định liên quan tài khoản tiền.",
+    "description": "The generated-index page description for category 'Thanh toán - Nạp tiền' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Hướng dẫn và quy định đăng tin": {
+    "message": "Hướng dẫn và quy định đăng tin",
+    "description": "The label for category 'Hướng dẫn và quy định đăng tin' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Hướng dẫn và quy định đăng tin.link.generated-index.description": {
+    "message": "Hướng dẫn thao tác đăng tin và quy định liên quan trên DDCProperty.",
+    "description": "The generated-index page description for category 'Hướng dẫn và quy định đăng tin' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Hướng dẫn đăng tin": {
+    "message": "Hướng dẫn đăng tin",
+    "description": "The label for category 'Hướng dẫn đăng tin' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Quy định đăng tin": {
+    "message": "Quy định đăng tin",
+    "description": "The label for category 'Quy định đăng tin' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Sản phẩm dịch vụ": {
+    "message": "Sản phẩm dịch vụ",
+    "description": "The label for category 'Sản phẩm dịch vụ' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Sản phẩm dịch vụ.link.generated-index.description": {
+    "message": "Thông tin sản phẩm, gói dịch vụ và hướng dẫn sử dụng.",
+    "description": "The generated-index page description for category 'Sản phẩm dịch vụ' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Gói Hội viên": {
+    "message": "Gói Hội viên",
+    "description": "The label for category 'Gói Hội viên' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Gói Hội viên.link.generated-index.description": {
+    "message": "Thông báo, bảng quyền lợi và hướng dẫn sử dụng Gói Hội viên.",
+    "description": "The generated-index page description for category 'Gói Hội viên' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Tài khoản người dùng": {
+    "message": "Tài khoản người dùng",
+    "description": "The label for category 'Tài khoản người dùng' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Tài khoản người dùng.link.generated-index.description": {
+    "message": "Hướng dẫn đăng ký, quản lý tài khoản và các quy định liên quan.",
+    "description": "The generated-index page description for category 'Tài khoản người dùng' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Chương trình khuyến mãi": {
+    "message": "Chương trình khuyến mãi",
+    "description": "The label for category 'Chương trình khuyến mãi' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Chương trình khuyến mãi.link.generated-index.description": {
+    "message": "Tổng hợp các chương trình ưu đãi, điều kiện áp dụng, quyền lợi và câu hỏi thường gặp.",
+    "description": "The generated-index page description for category 'Chương trình khuyến mãi' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Quy định và Chính sách": {
+    "message": "Quy định và Chính sách",
+    "description": "The label for category 'Quy định và Chính sách' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Quy định và Chính sách.link.generated-index.description": {
+    "message": "Bộ điều khoản, chính sách bảo mật và quy chế vận hành của DDCProperty.",
+    "description": "The generated-index page description for category 'Quy định và Chính sách' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Chính sách bảo mật thông tin": {
+    "message": "Chính sách bảo mật thông tin",
+    "description": "The label for category 'Chính sách bảo mật thông tin' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Chính sách bảo mật thông tin.link.generated-index.description": {
+    "message": "Bộ chính sách bảo mật dữ liệu cá nhân và quyền của chủ thể dữ liệu.",
+    "description": "The generated-index page description for category 'Chính sách bảo mật thông tin' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Quy chế hoạt động website, ứng dụng": {
+    "message": "Quy chế hoạt động website, ứng dụng",
+    "description": "The label for category 'Quy chế hoạt động website, ứng dụng' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Quy chế hoạt động website, ứng dụng.link.generated-index.description": {
+    "message": "Quy chế vận hành sàn thông tin bất động sản trên DDCProperty.",
+    "description": "The generated-index page description for category 'Quy chế hoạt động website, ứng dụng' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Câu hỏi thường gặp": {
+    "message": "Câu hỏi thường gặp",
+    "description": "The label for category 'Câu hỏi thường gặp' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Câu hỏi thường gặp.link.generated-index.description": {
+    "message": "Tổng hợp câu hỏi thường gặp về tin đăng, sản phẩm dịch vụ, tìm kiếm, thanh toán, tài khoản và xử lý lỗi.",
+    "description": "The generated-index page description for category 'Câu hỏi thường gặp' in sidebar 'tutorialSidebar'"
+  }
+}

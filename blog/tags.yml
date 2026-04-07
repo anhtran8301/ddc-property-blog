@@ -1,19 +1,44 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+bat-dong-san:
+  label: Bất động sản
+  permalink: /bat-dong-san
+  description: Nội dung liên quan bất động sản
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+phap-ly:
+  label: Pháp lý
+  permalink: /phap-ly
+  description: Pháp lý và thủ tục
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+quy-hoach:
+  label: Quy hoạch
+  permalink: /quy-hoach
+  description: Quy hoạch đất đai
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+dang-tin:
+  label: Đăng tin
+  permalink: /dang-tin
+  description: Đăng tin rao bán, cho thuê
+
+ddcproperty:
+  label: DDCPROPERTY
+  permalink: /ddcproperty
+  description: Nền tảng DDCPROPERTY.VN
+
+ky-gui:
+  label: Ký gửi
+  permalink: /ky-gui
+  description: Ký gửi bất động sản
+
+so-chung:
+  label: Sổ chung
+  permalink: /so-chung
+  description: Bất động sản sổ chung
+
+recap:
+  label: Recap
+  permalink: /recap
+  description: Tóm tắt sự kiện
+
+thuong-hieu:
+  label: Thương hiệu
+  permalink: /thuong-hieu
+  description: Thương hiệu và định vị

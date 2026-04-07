@@ -16,7 +16,6 @@
 
 .heroBanner {
   padding: 6rem 0;
-  text-align: center;
   position: relative;
   overflow: hidden;
   min-height: clamp(22rem, 52vh, 38rem);
@@ -55,21 +54,59 @@
   z-index: 2;
 }
 
+/* Giống mẫu Federico: avatar tròn bên trái, nội dung bên phải */
+.heroRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(1.25rem, 4vw, 2.75rem);
+  text-align: left;
+}
+
+.heroAvatar {
+  width: clamp(120px, 22vw, 220px);
+  height: clamp(120px, 22vw, 220px);
+  flex-shrink: 0;
+  border-radius: 50%;
+  object-fit: contain;
+  background: rgba(0, 0, 0, 0.12);
+  border: 3px solid rgba(255, 255, 255, 0.35);
+  box-sizing: border-box;
+  padding: 0.35rem;
+}
+
+.heroText {
+  flex: 1;
+  min-width: 0;
+  max-width: 40rem;
+}
+
 .heroBanner :global(.hero__title) {
   font-size: clamp(1.65rem, 2.5vw + 1rem, 3rem);
 }
 
 .heroBanner :global(.hero__subtitle) {
   font-size: clamp(1rem, 1vw + 0.9rem, 1.35rem);
-  max-width: 42rem;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: none;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2.5rem 1rem;
     min-height: clamp(17rem, 48vh, 30rem);
+  }
+
+  .heroRow {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .heroBanner :global(.hero__subtitle) {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
