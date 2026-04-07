@@ -1,56 +1,101 @@
-.hero {
-  position: relative;
-  overflow: hidden;
-  min-height: 19rem;
-  padding: 3.5rem 1rem 2.75rem;
-  background-image:
-    linear-gradient(rgba(16, 18, 23, 0.2), rgba(16, 18, 23, 0.2)),
-    url('/img/dai-dong-cat-ho-tro-khach-hang-background-1.jpg');
-  background-position: 62% bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+@keyframes heroGlow {
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.82;
+  }
 }
 
-.hero::before {
+.heroBanner {
+  padding: 6rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  min-height: clamp(22rem, 52vh, 38rem);
+  isolation: isolate;
+}
+
+.heroBanner::before {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.2));
+  z-index: 0;
   pointer-events: none;
+  background: radial-gradient(
+    ellipse 78% 58% at 50% 36%,
+    rgba(255, 255, 255, 0.16) 0%,
+    transparent 58%
+  );
+  animation: heroGlow 12s ease-in-out infinite;
 }
 
-.heroInner {
+.heroBanner::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background: radial-gradient(
+    ellipse 55% 48% at 50% 42%,
+    rgba(0, 0, 0, 0.14) 0%,
+    transparent 62%
+  );
+}
+
+.heroContent {
   position: relative;
-  z-index: 1;
-  max-width: 48rem;
-  margin: 0 auto;
-  text-align: center;
+  z-index: 2;
 }
 
-.heroTitle {
-  font-size: clamp(1.5rem, 4vw, 2rem);
-  font-weight: 600;
-  line-height: 1.35;
-  margin-bottom: 0.75rem;
-  color: #fff;
+.heroBanner :global(.hero__title) {
+  font-size: clamp(1.65rem, 2.5vw + 1rem, 3rem);
 }
 
-.heroTitle strong {
-  font-weight: 700;
-  color: #fff;
-}
-
-.heroTagline {
-  margin: 0;
-  font-size: 1.05rem;
-  color: rgba(255, 255, 255, 0.92);
+.heroBanner :global(.hero__subtitle) {
+  font-size: clamp(1rem, 1vw + 0.9rem, 1.35rem);
+  max-width: 42rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (max-width: 996px) {
-  .hero {
-    min-height: 14rem;
-    padding: 2.5rem 1rem 2rem;
-    background-position: 60% bottom;
+  .heroBanner {
+    padding: 2.5rem 1rem;
+    min-height: clamp(17rem, 48vh, 30rem);
   }
+}
+
+.shapeFill {
+  fill: var(--ifm-color-primary);
+}
+
+.shapeFillBlack {
+  fill: #2e3032ff;
+}
+
+.topShape {
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.bottomShape {
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.svg {
+  width: calc(143% + 1px);
+  height: 50px;
+  transform: rotateY(180deg);
 }

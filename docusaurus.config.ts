@@ -95,7 +95,25 @@ const config: Config = {
         alt: 'Trung tâm hỗ trợ khách hàng',
         src: 'img/logo-icon-color.png',
       },
-      items: [],
+      items: [
+        {
+          to: '/blog',
+          label: 'Blog',
+          position: 'left',
+        },
+        {
+          href: 'https://www.youtube.com/@daidongcat',
+          position: 'right',
+          className: 'navbar__youtube navbar__icon',
+          'aria-label': 'Kênh YouTube',
+        },
+        {
+          href: 'https://www.facebook.com/sangiaodichBDS.DAIDONGCAT.VN',
+          position: 'right',
+          className: 'navbar__facebook navbar__icon',
+          'aria-label': 'Facebook',
+        },
+      ],
     },
     prism: {
       theme: prismThemes.github,

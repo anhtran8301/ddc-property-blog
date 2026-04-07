@@ -1,0 +1,17 @@
+.heroBlobAnimated {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 1000px;
+  height: 1300px;
+  max-width: none;
+  pointer-events: none;
+  transform: translateY(30%) translateX(25%);
+}
+
+@media screen and (max-width: 900px) {
+  .heroBlobAnimated {
+    transform: translateY(33%) translateX(8%);
+  }
+}

@@ -3,7 +3,6 @@ import {useId, useState} from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import Heading from '@theme/Heading';
-import SearchBar from '@theme/SearchBar';
 
 import styles from './styles.module.css';
 
@@ -246,16 +245,6 @@ function FaqAccordion(): ReactNode {
   );
 }
 
-function SearchPrompt(): ReactNode {
-  return (
-    <div className={styles.searchWrap}>
-      <div className={styles.homeSearchHost}>
-        <SearchBar />
-      </div>
-    </div>
-  );
-}
-
 function CategoryCardLink({title, description, to, icon}: CategoryCard): ReactNode {
   return (
     <Link to={to} className={styles.categoryCard}>
@@ -273,12 +262,6 @@ function CategoryCardLink({title, description, to, icon}: CategoryCard): ReactNo
 export default function HomepageFeatures(): ReactNode {
   return (
     <div className={styles.helpHome}>
-      <section className={styles.section}>
-        <div className="container">
-          <SearchPrompt />
-        </div>
-      </section>
-
       <section className={styles.section}>
         <div className="container">
           <div className={styles.cardGrid}>
