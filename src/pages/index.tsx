@@ -1,6 +1,7 @@
 import type {ReactNode} from 'react';
 import clsx from 'clsx';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import HomepageHeroBlob from '@site/src/components/HomepageHeroBlob';
@@ -10,6 +11,7 @@ import styles from './index.module.css';
 
 export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
+  const heroAvatarSrc = useBaseUrl('/img/DDC-WHITE.png');
   return (
     <Layout
       title="Trang chủ"
@@ -20,7 +22,7 @@ export default function Home(): ReactNode {
           <div className={styles.heroRow}>
             <img
               className={styles.heroAvatar}
-              src="/img/DDC-WHITE.png"
+              src={heroAvatarSrc}
               alt="DDCProperty"
               width={220}
               height={220}
