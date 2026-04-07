@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'DDCProperty',
   tagline: 'Trợ giúp, hướng dẫn và quy định liên quan bất động sản',
-  favicon: 'img/DDC-WHITE.png',
+  favicon: 'img/logo-icon-color.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -87,7 +87,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/DDC-WHITE.png',
+    image: 'img/logo-icon-color.png',
     colorMode: {
       respectPrefersColorScheme: true,
     },
@@ -95,7 +95,7 @@ const config: Config = {
       title: 'Trung tâm hỗ trợ khách hàng',
       logo: {
         alt: 'Trung tâm hỗ trợ khách hàng',
-        src: 'img/DDC-WHITE.png',
+        src: 'img/logo-icon-color.png',
       },
       items: [
         {
