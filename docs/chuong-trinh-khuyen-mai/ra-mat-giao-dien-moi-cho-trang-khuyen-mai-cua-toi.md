@@ -24,5 +24,5 @@ Từ **01/08/2025**, trang **Khuyến mãi của tôi** được cập nhật gi
 
 ## Liên hệ hỗ trợ
 
-- Tổng đài CSKH: **1900 1881**
-- Email: **cskh@batdongsan.com.vn**
+- Tổng đài CSKH: **1900 9444**
+- Email: **info@daidongcat.vn**

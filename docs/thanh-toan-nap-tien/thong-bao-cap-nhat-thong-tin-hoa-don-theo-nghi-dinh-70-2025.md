@@ -30,5 +30,5 @@ Tùy loại khách hàng (tổ chức/hộ kinh doanh/cá nhân), cần bổ sun
 
 ## Liên hệ
 
-- Hotline: **19001881**
-- Email: **hotro@batdongsan.com.vn**
+- Hotline: **1900 9444**
+- Email: **info@daidongcat.vn**

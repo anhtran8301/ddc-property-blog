@@ -27,5 +27,5 @@ Từ ngày **11/03/2026**, hệ thống triển khai thêm phương thức thanh
 
 ## Liên hệ
 
-- Tổng đài: **1900 1881**
-- Email: **cskh@batdongsan.com.vn**
+- Tổng đài: **1900 9444**
+- Email: **info@daidongcat.vn**

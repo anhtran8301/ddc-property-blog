@@ -61,5 +61,5 @@ Lưu ý: Hệ thống hỗ trợ miễn phí 3 lần lấy OTP, từ lần thứ
 
 ## Liên hệ hỗ trợ
 
-- Tổng đài CSKH: **1900 1881**
-- Email: **cskh@batdongsan.com.vn**
+- Tổng đài CSKH: **1900 9444**
+- Email: **info@daidongcat.vn**

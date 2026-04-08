@@ -152,21 +152,38 @@ type FaqEntry = {
 
 const faqEntries: FaqEntry[] = [
   {
-    id: 'vip-voucher',
-    question: 'Gói voucher Tin VIP là gì?',
+    id: 'sell-house-fast',
+    question: 'Cách bán nhà nhanh nhất là gì?',
     answer: (
       <>
-        Gói voucher Tin VIP cung cấp mã giảm giá khi bạn sử dụng dịch vụ đăng tin VIP, giúp tin nổi bật và tiếp cận nhiều người xem hơn. Điều kiện và thời hạn từng đợt khuyến mãi được thông báo riêng trên hệ thống.
+        Để bán nhà nhanh, điều quan trọng là phải hiểu rõ thị trường bất động sản tại khu vực của bạn. Mỗi khu vực sẽ có nhu cầu và mức giá khác nhau. Làm việc với một môi giới bất động sản uy tín sẽ giúp bạn đánh giá đúng thị trường và lựa chọn phương án bán phù hợp để giao dịch diễn ra nhanh chóng.
       </>
     ),
   },
   {
-    id: 'multi-vip-month',
-    question:
-      'Tôi có thể mua nhiều gói voucher Tin VIP trong cùng một tháng không?',
+    id: 'house-pricing',
+    question: 'Làm sao để định giá ngôi nhà của tôi?',
     answer: (
       <>
-        Tùy chính sách từng thời điểm: thường bạn có thể mua và sử dụng nhiều gói theo quy định hiển thị tại mục thanh toán. Nếu có giới hạn số gói hoặc hạn mức, hệ thống sẽ thông báo khi bạn thao tác mua hoặc áp dụng voucher.
+        Bạn có thể ước tính giá trị ngôi nhà thông qua các nền tảng bất động sản trực tuyến hoặc nhờ đến chuyên gia trong ngành. Ngoài ra, việc theo dõi giá nhà theo thời gian và cập nhật thông tin thị trường sẽ giúp bạn có cái nhìn chính xác hơn về giá trị hiện tại của tài sản.
+      </>
+    ),
+  },
+  {
+    id: 'best-selling-channel',
+    question: 'Nên bán nhà thông qua ai là tốt nhất?',
+    answer: (
+      <>
+        Các môi giới bất động sản tại địa phương, đặc biệt là những người am hiểu khu vực bạn đang sinh sống, sẽ là lựa chọn đáng tin cậy. Họ có kinh nghiệm, mạng lưới khách hàng và kỹ năng thương lượng tốt. Bên cạnh đó, bạn cũng có thể cân nhắc các hình thức khác như bán trực tiếp cho người mua hoặc tự đăng bán nếu có kinh nghiệm.
+      </>
+    ),
+  },
+  {
+    id: 'key-value-factor',
+    question: 'Yếu tố quan trọng nhất quyết định giá trị ngôi nhà là gì?',
+    answer: (
+      <>
+        Giá trị của một ngôi nhà phụ thuộc lớn vào các giao dịch mua bán của những bất động sản tương tự trong cùng khu vực (thường gọi là “so sánh thị trường”). Đây là cơ sở quan trọng để xác định mức giá phù hợp. Một môi giới chuyên nghiệp sẽ giúp bạn phân tích dữ liệu này để đưa ra mức giá hợp lý và cạnh tranh.
       </>
     ),
   },
@@ -279,7 +296,7 @@ export default function HomepageFeatures(): ReactNode {
           </Heading>
           <FaqAccordion />
           <p className={styles.contactLine}>
-            <Link href="mailto:support@example.com" className={styles.contactLink}>
+            <Link href="mailto:info@daidongcat.vn" className={styles.contactLink}>
               Liên hệ
             </Link>
           </p>
