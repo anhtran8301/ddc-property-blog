@@ -6,140 +6,87 @@ sidebar_label: Quy định đăng tin
 description: Quy định về đăng tin bất động sản — tổng quan, phân loại, hình ảnh, nội dung tin và quy trình kiểm duyệt.
 ---
 
-# Quy định đăng tin
+# QUY ĐỊNH VỀ ĐĂNG TIN
 
-Nội dung tham khảo theo cấu trúc tài liệu hỗ trợ tại [Batdongsan.com.vn — Quy định đăng tin](https://trogiup.batdongsan.com.vn/docs/quy-dinh-dang-tin-bat-dong-san). Vui lòng điều chỉnh cho phù hợp với nền tảng và chính sách của bạn.
+## I. TỔNG QUAN
 
-## I. Tổng quan và phạm vi áp dụng
-
-- Nội quy này áp dụng cho tất cả tin đăng và tài khoản trên **DDCProperty** (và các kênh liên quan do đơn vị vận hành quản lý).
-- **Mục đích:** Đảm bảo tính chính xác, minh bạch của thông tin, tuân thủ pháp luật và mang lại trải nghiệm tốt nhất cho người dùng.
+- Nội quy này áp dụng cho tất cả tin đăng và tài khoản trên website DDCproperty.vn.
+- Đảm bảo tin đăng chính chủ, giá bán chính chủ, thông tin chi tiết, trung thực, minh bạch đúng quy định của pháp luật.
 - Việc đăng tin đồng nghĩa với việc đã đọc, hiểu và chấp thuận toàn bộ nội dung dưới đây.
 
-## II. Quy định chung về tính chính xác và trung thực
+## II. QUY ĐỊNH CHUNG VỀ ĐĂNG
 
 Để đảm bảo uy tín và quyền lợi cho các bên, tin đăng bắt buộc phải tuân thủ các nguyên tắc cốt lõi về chất lượng nội dung.
 
-### 2.1. Yêu cầu về tính chính xác (thực tế)
+### 2.1. Tin đăng chính chủ
 
-- **Đảm bảo tính chính xác, trung thực và minh bạch** của thông tin.
-- Nội dung tin đăng phải **trùng khớp với một bất động sản thực tế**.
-- **Nghiêm cấm** cung cấp thông tin sai lệch về giá, vị trí, pháp lý hoặc hiện trạng công trình.
+Tin đăng chính chủ là tin đăng được thực hiện bởi Chủ sở hữu, Chủ đầu tư (tổ chức, cá nhân có quyền sở hữu hợp pháp đối với Bất động sản) hoặc người được Chủ sở hữu ủy quyền hợp pháp.
 
-### 2.2. Nội dung và hành vi bị cấm
+Việc xác minh chính chủ thông qua đối chiếu giữa thông tin tài khoản và thông tin trên giấy tờ pháp lý. Đội ngũ Admin có trách nhiệm xác minh và phê duyệt tin.
 
-- **Tin giả, tin không có thật**, tin không quảng cáo một bất động sản cụ thể mà chỉ quảng cáo về công ty hoặc cá nhân — **chào hàng không xác thực** (không xác định được BĐS cụ thể).
-- Quảng cáo gây hiểu nhầm, thổi giá, cam kết sai sự thật.
-- Nội dung trùng lặp, spam từ khóa, hoặc **sao chép** nội dung từ tin đăng khác.
-- Tin đăng chứa ngôn từ phản cảm, không phù hợp với thuần phong mỹ tục. Nghiêm cấm các nội dung liên quan đến chính trị, tôn giáo, văn hóa hoặc vi phạm các quy định pháp luật hiện hành.
+### 2.2. Giá bán chính chủ
 
-## III. Quy định về phân loại bất động sản
+- Đảm bảo tính trung thực và minh bạch của thông tin giao dịch, tránh tình trạng giá ảo, thổi giá, hoặc niêm yết giá gây hiểu lầm cho người mua.
+- Giá niêm yết phải là giá mà Chủ sở hữu, chủ đầu tư mong muốn giao dịch tại thời điểm đăng tin.
+- Giá bán hiển thị theo đơn giá hoặc tổng giá trị BĐS với đơn vị VNĐ.
+- Nghiêm cấm niêm yết giá không có thật, giá thấp hơn giá thị trường hoặc kê giá cao hơn giá mong muốn của Chủ sở hữu, chủ đầu tư.
+
+### 2.3. Thông tin chi tiết, trung thực, minh bạch
+
+Thông tin mô tả và việc đánh giá Bất động sản phải hoàn toàn trung thực, khớp 100% với hiện trạng, đặc điểm và vị trí thực tế. Chi tiết và đầy đủ theo Bảng điều chỉnh thẩm định giá BĐS.
+
+Nghiêm cấm việc mô tả sai lệch, phóng đại, sử dụng từ ngữ mập mờ, hoặc che giấu các thông tin quan trọng (pháp lý, quy hoạch, tranh chấp) ảnh hưởng đến quyết định của khách hàng.
+
+## III. QUY ĐỊNH VỀ LOẠI HÌNH BẤT ĐỘNG SẢN
 
 Tin phải đăng đúng phân mục, đúng loại hình BĐS. Không đăng một bất động sản ở nhiều phân mục khác nhau.
 
-| Phân loại | Mô tả, định nghĩa cơ bản |
-| --- | --- |
-| **Căn hộ chung cư** | Nhà ở khép kín nằm trong tòa nhà hoặc khu nhà nhiều tầng (nhà tập thể, cư xá, căn hộ chung cư tại các dự án). |
-| **Chung cư mini, căn hộ dịch vụ** | Căn hộ diện tích nhỏ, thường nằm trong nhà nhiều tầng do cá nhân xây dựng và có không gian ở khép kín. |
-| **Biệt thự, nhà liền kề** | **Biệt thự:** Nhà ở riêng lẻ trong khuôn viên đất độc lập, không chung tường. **Liền kề:** Nhà ở xây dựng theo dãy trong dự án quy hoạch, các căn sát nhau và có thể chung tường. |
-| **Shophouse, nhà phố thương mại** | BĐS nằm trong dự án, có thể là chân đế tòa nhà hỗn hợp, phù hợp vừa ở vừa khai thác thương mại. Hoặc các khu nhà thấp tầng được thiết kế đồng bộ, kết hợp giữa không gian ở và kinh doanh. Là loại hình bất động sản nằm trong các **dự án quy hoạch**, có thể là chân đế tòa nhà hỗn hợp, thường kết hợp giữa mục đích **ở và kinh doanh**. Thường có kiến trúc đồng bộ và vị trí tại các trục đường nội bộ hoặc mặt tiền dự án. |
-| **Nhà riêng (trong ngõ)** | Nhà ở được xây dựng trên thửa đất riêng biệt, có địa chỉ nằm trong các ngõ, hẻm, kiệt hoặc ngách. |
-| **Nhà mặt phố** | Loại hình nhà ở có vị trí nằm trực tiếp trên các tuyến phố, đường lớn có **tên đường cụ thể** trong bản đồ hành chính; có mặt tiền tiếp giáp trực tiếp với lòng đường và thường có **vỉa hè** đi kèm. Địa chỉ nhà không nằm trong ngõ (hẻm). |
-| **Đất nền dự án** | Lô đất thuộc dự án đã được quy hoạch, phân lô rõ ràng và có hạ tầng theo quy hoạch. |
-| **Đất** | BĐS không có công trình xây dựng gắn liền (đất ở, đất nông nghiệp, đất lâm nghiệp…). |
-| **Trang trại nghỉ dưỡng** | BĐS có quỹ đất lớn, gắn với sản xuất nông nghiệp hoặc khai thác du lịch – nghỉ dưỡng. |
-| **Condotel** | Căn hộ khách sạn nằm trong dự án du lịch – nghỉ dưỡng, vận hành theo mô hình lưu trú. |
-| **Văn phòng** | BĐS dùng cho mục đích làm việc, đặt trụ sở doanh nghiệp hoặc hoạt động kinh doanh (thường nằm trong tòa nhà chuyên dụng). |
-| **Kho xưởng** | BĐS dùng để lưu trữ hàng hóa hoặc phục vụ sản xuất, gia công. |
-| **Phòng trọ** | Không gian ở cho thuê diện tích nhỏ, thường thuộc nhà ở do cá nhân quản lý. |
-| **Kiot, cửa hàng** | Mặt bằng nhỏ dùng cho hoạt động kinh doanh, buôn bán trực tiếp (khu dân cư, chợ, TTTM). |
-| **BĐS khác** | BĐS không thuộc các phân loại trên. |
-
-## IV. Yêu cầu chi tiết về hình thức và phân loại
-
-### 4.1. Ngôn ngữ và pháp lý
-
-- Tin đăng phải bằng **tiếng Việt có dấu**, chữ thường (chỉ viết hoa đầu câu/danh từ riêng), đúng chính tả, mạch lạc, rõ ràng. Không sử dụng thơ ca, hò, vè.
-- Phải tuân thủ **Luật Quảng cáo** hiện hành.
-- Sử dụng từ “Tốt nhất”, “Duy nhất”, … **cần có tài liệu chứng thực** hợp pháp.
-- Theo quy định của Pháp lệnh Ngoại hối hiện hành, mức giá trong tin đăng chỉ được niêm yết bằng đồng tiền Việt Nam (VNĐ).
-
-### 4.2. Phân loại và địa chỉ
-
-- Tin đăng phải đúng **phân loại, phân mục và địa chỉ** BĐS.
-- Mỗi tin chỉ được đăng **BÁN** hoặc **CHO THUÊ**, không đồng thời.
-- Phải điền đầy đủ các trường thông tin. Nếu thuộc dự án, phải ghi rõ tên dự án.
-
-### 4.3. Quy tắc “Một tin đăng — Một bất động sản”
-
-**Nguyên tắc chung:** Mỗi tin đăng chỉ mô tả **01 bất động sản cụ thể**. Không gộp nhiều căn, nhiều lô, nhiều sản phẩm trong cùng một tin.
-
-| Định nghĩa BĐS cụ thể | **BĐS cụ thể** là một tài sản riêng biệt, có thể xác định rõ ràng và duy nhất theo các thông tin: vị trí (địa chỉ/thửa đất/căn hộ cụ thể), loại hình, diện tích – hiện trạng – pháp lý, giá và thông tin giao dịch. |
-| --- | --- |
-| **Lưu ý** | Trường hợp có nhiều căn/lô/phòng cần đăng, phải tách thành nhiều tin đăng riêng biệt. |
-| **Tin thường** | Chỉ được đăng **01 BĐS cụ thể**. Không được liệt kê thêm BĐS khác trong tiêu đề, mô tả hoặc hình ảnh. |
-
-### 4.4. Quy tắc mở rộng nội dung mô tả — áp dụng cho tin VIP (tối đa 01 BĐS chính)
-
-Tin VIP được phép mở rộng nội dung mô tả, nhưng tiêu đề, giá hiển thị, hình ảnh, pháp lý **chỉ áp dụng cho 01 BĐS chính**.
-
-| Loại BĐS | Số BĐS | Điều kiện phân loại được phép |
+| Loại hình | Mã ký hiệu loại đất | Mô tả chung |
 | --- | --- | --- |
-| Căn hộ (chung cư, condotel, CC mini) | ≤ 12 căn | Cùng dự án / cùng phân khu |
-| Nhà liền kề trong dự án | ≤ 12 căn | Cùng dự án, cùng phân loại BĐS, cùng phân khu hoặc cùng tuyến đường |
-| Đất nền dự án | ≤ 12 lô | Cùng dự án hoặc cùng phân khu |
-| Shophouse / nhà phố thương mại | ≤ 12 căn | Cùng dự án, cùng phân khu hoặc cùng tuyến đường |
-| BĐS thổ cư khác | ≤ 12 BĐS | Cùng phường hoặc cùng tuyến đường, cùng loại hình (nhà mặt phố hoặc nhà riêng) |
+| Đất nền thổ cư | ONT / ODT | BĐS chỉ có đất nền có mã ký hiệu ONT / ODT. |
+| Nhà ở | ONT / ODT | BĐS có công trình trên đất chỉ dùng để ở (dãy trọ, nhà ở xã hội thấp tầng, biệt thự, nhà ở riêng lẻ). |
+| Chúng cư | ONT / ODT | Công trình cao tầng có chức năng để ở (chúng cư, nhà ở xã hội, chúng cư mini, studio, penthouse, duplex, sky villa, dual key). |
+| BĐS Công nghiệp | CSK (SCC, SKK, SKN, SCT) | BĐS phục vụ hoạt động sản xuất công nghiệp, chế biến, lưu trữ và logistics. |
+| BĐS Nông nghiệp | NNP (CHN, CLN, LNP, NTS, CNT, LMU, NKH) | Đất đai và các tài sản gắn liền với đất được sử dụng trực tiếp cho hoạt động sản xuất nông nghiệp, lâm nghiệp, nuôi trồng thủy sản và làm muối. |
+| BĐS Thương mại - Dịch vụ | TMD, ONT / ODT | BĐS phục vụ mục đích kinh doanh, thương mại và cung cấp dịch vụ như trung tâm thương mại, văn phòng, nhà hàng, khách sạn, shophouse và các cơ sở dịch vụ khác. |
+| BĐS Nghỉ dưỡng | TMD, SKC, ONT / ODT | BĐS phục vụ mục đích lưu trú, nghỉ dưỡng và giải trí, thường kết hợp mục đích kinh doanh, gồm condotel, resort, villa nghỉ dưỡng và các BĐS quy hoạch tại khu du lịch/ven biển. |
+| BĐS Tâm linh | NTD | Loại hình tập trung vào các dự án nghĩa trang hoặc khu vực quy hoạch riêng phục vụ nhu cầu an táng. |
+| Các BĐS khác |  | BĐS không thuộc một trong các phân loại đã được định nghĩa và liệt kê bên trên. |
 
-_Lưu ý:_ Để tối ưu hiệu quả tin đăng, khuyến cáo với **một tin đăng**, chỉ mô tả, giới thiệu, chào bán/cho thuê **một (01) BĐS cụ thể**. Hãy **tập trung** mô tả những **ưu điểm**, lợi thế của bất động sản đó để **tiếp cận** người có **nhu cầu thực**, khớp với BĐS đang được quảng cáo.
+## IV. PHÂN LOẠI TIN ĐĂNG
 
-## V. Quy định về hình ảnh và video
+### 4.1. Các dạng tin đăng
 
-- Hình ảnh/video phải thuộc **đúng BĐS trên tin đăng**.
+- **Mua bán:** Dạng tin đăng cung cấp thông tin về BĐS đang được chào bán nhằm tìm kiếm khách hàng có nhu cầu mua, chuyển nhượng quyền sở hữu hoặc quyền sử dụng hợp pháp.
+- **Cho thuê:** Dạng tin đăng cung cấp thông tin về BĐS đang được chào cho thuê nhằm tìm kiếm khách hàng có nhu cầu thuê, thuê lại hoặc khai thác BĐS trong một khoảng thời gian nhất định.
+- **Dự án:** Dạng tin đăng cung cấp thông tin tổng quan về một dự án BĐS đang được triển khai (ví dụ: đất nền dự án, khu đô thị, tổ hợp căn hộ, biệt thự nghỉ dưỡng).
+- **Thành viên:** Hiển thị vị trí của thành viên là các tổ chức, cá nhân môi giới đủ điều kiện hợp tác với Đại Đồng Cát. Vị trí của thành viên là địa điểm giao dịch của sàn ở xa trụ sở. Thông tin chi tiết gồm: tên tổ chức/cá nhân, địa chỉ, SĐT, ảnh đại diện cá nhân hoặc logo tổ chức, link PDF hợp đồng ký giữa Đại Đồng Cát với thành viên.
+
+### 4.2. Số lượng BĐS trong một tin đăng
+
+- **Tin thông thường:** Mỗi tin chỉ có một BĐS. Nếu có trên 2 BĐS liền kề nhau, diện tích và giá bán hiển thị phải là tổng của các BĐS liền kề. Phần mô tả, hình ảnh và pháp lý cần nêu rõ mặt bằng từng BĐS (nhưng tối đa không quá 5 BĐS).
+- **Tin đặc biệt:** Gồm nhiều BĐS trong cùng một vị trí, cụ thể là loại hình chúng cư, tòa nhà văn phòng, dự án. Các tin thông thường được gộp chung vào một tin đặc biệt. Thông tin hiển thị sẽ là tên của tòa nhà, dự án đó. Đội ngũ admin chịu trách nhiệm tổng hợp tin đăng.
+
+## V. QUY ĐỊNH VỀ HÌNH ẢNH & VIDEO
+
+- Hình ảnh/video phải thuộc đúng BĐS trên tin đăng.
 - Không dùng hình ảnh/video minh họa không phù hợp, bị chỉnh sửa sai lệch, không liên quan tới BĐS được quảng cáo trên tin đăng.
 - Khuyến khích hình/video có định vị hoặc đặc điểm nhận diện rõ ràng.
-- Không chèn **SĐT, website, slogan, chữ**, hoặc logo các website khác lên hình ảnh/video. Logo của đơn vị/cá nhân đăng tin phải nằm ở **1 góc, không quá 1/5 diện tích ảnh**.
+- Không chèn SĐT, website, slogan, chữ, hoặc logo các website khác lên hình ảnh/video. Logo của đơn vị/cá nhân đăng tin phải nằm ở 1 góc, không quá 1/5 diện tích ảnh.
 
-| Tiêu chí | Quy định | Yêu cầu kỹ thuật |
-| --- | --- | --- |
-| **Hình ảnh** | Tối thiểu **3 ảnh**, tối đa **24 ảnh**. | Kích thước tối thiểu **100×100 pixel**. Dung lượng tối đa **15 MB**. Khuyến cáo kích thước tối thiểu **600×800 pixel** để đảm bảo chất lượng ảnh khi hiển thị. |
-| **Video** | Mỗi tin đăng chỉ hỗ trợ **01 video**. Hỗ trợ đường dẫn từ **YouTube/TikTok** hoặc upload trực tiếp lên website. | Upload trực tiếp: **Định dạng** MP4, MOV (H.264 hoặc HEVC). **Dung lượng:** tối đa 300 MB. **Thời lượng:** tối thiểu 5 giây, tối đa 3 phút. **Độ phân giải:** tối thiểu 720p, tối đa 1080p. |
+## VI. QUY ĐỊNH VỀ THỜI HẠN LƯU TIN
 
-## VI. Quy định chi tiết các mục trên tin đăng
+- Các tin đăng được phê duyệt sẽ được lưu tin vô thời hạn, chủ tài khoản chủ động hạ tin khi tin đăng đã giao dịch.
+- Đội ngũ admin rà soát tin đăng hằng tuần, thông báo cho chủ tài khoản chưa hạ tin khi BĐS đã giao dịch.
 
-| Đầu mục | Quy định |
-| --- | --- |
-| **Tiêu đề** | Tối thiểu 33 ký tự, tối đa 99 ký tự. Không để đường dẫn link, không chứa ký tự đặc biệt. |
-| **Nội dung mô tả** | Không sử dụng thơ ca, hò, vè. Không spam hashtag. Không đưa link dẫn các trang mạng xã hội, website không liên quan. Không spam từ khóa về vị trí, dự án, thông tin khác. Số lượng ký tự tối đa sau khi chuẩn hóa format tiếng Việt: **3000 ký tự**. |
-| **Giá / diện tích** | Điền đúng thông số, đơn vị. (Ví dụ: nhà liền thổ — nhà riêng, mặt phố… → cần điền diện tích mặt bằng, không điền diện tích sử dụng vào trường diện tích). |
-| **Pháp lý** | Điền đúng pháp lý. |
-| **Thuộc tính** | Cập nhật đầy đủ thông số mặt tiền, đường vào, số tầng, hướng nhà, … |
+## VII. QUY TRÌNH PHÊ DUYỆT
 
-## VII. Quy trình, xác minh và chế tài
+### 7.1. Quy trình phê duyệt & sửa tin
 
-### 7.1. Quy trình kiểm duyệt và sửa tin
+- Sau khi chủ tài khoản hoàn tất các bước đăng tin, đội ngũ admin thực hiện phê duyệt theo các quy định về đăng tin.
+- Thời gian phê duyệt không được quá 01 ngày làm việc.
+- Thông báo cho chủ tài khoản nội dung chưa phù hợp với quy định và yêu cầu chỉnh sửa trước khi phê duyệt.
 
-- **Kiểm duyệt:** Tất cả các tin đăng đều được kiểm duyệt.
-- **Tài khoản Pro:** Tin đăng được hiển thị ngay, sau đó sẽ được biên tập, hậu kiểm.
-- **Sửa tin:**
-  - **Không được thay đổi:** Phân loại Bán/Cho thuê, phân mục BĐS, địa chỉ (Tỉnh/Quận/Phường/Đường), dự án.
-  - **Được sửa:** Giá, hình ảnh, biên tập nội dung (không thay đổi hoàn toàn sang bất động sản khác).
-- **Phí sửa tin:** Khách hàng có **3 lần sửa miễn phí**. Sau đó, phí là **1.000 VNĐ/lần sửa**.
+### 7.2. Cập nhật & hiệu lực
 
-### 7.2. Quy định về xác minh tin đăng
-
-- Website có quyền **yêu cầu hồ sơ xác minh** (giấy tờ pháp lý, hồ sơ BĐS) khi cần thiết. Thông tin chỉ dùng để xác thực, không dùng cho mục đích khác.
-- Hồ sơ phải rõ ràng, đúng BĐS, không che thông tin quan trọng.
-- Tin không đáp ứng yêu cầu xác minh có thể bị **từ chối duyệt, gỡ bỏ hoặc hạn chế hiển thị**.
-
-### 7.3. Chế tài và xử lý vi phạm
-
-Tùy mức độ vi phạm, ban quản trị website có thể áp dụng:
-
-- Nhắc nhở và yêu cầu chỉnh sửa.
-- Hoặc từ chối duyệt/gỡ bỏ tin.
-- Hoặc tạm khóa / **khóa vĩnh viễn tài khoản**.
-
-### 7.4. Cập nhật và hiệu lực
-
-**DDCProperty** có quyền sửa đổi, bổ sung Quy định đăng tin này tại từng thời điểm nhằm phù hợp với hoạt động cung cấp dịch vụ và quy định của pháp luật (nếu có). Mọi sửa đổi, bổ sung sẽ được thông báo đến khách hàng và có hiệu lực theo nội dung thông báo. Bằng việc tiếp tục truy cập nền tảng hoặc/và sử dụng dịch vụ sau thời điểm sửa đổi, bổ sung có hiệu lực, khách hàng được xem là đã đọc, hiểu rõ và đồng ý chịu sự ràng buộc bởi Quy định đăng tin được sửa đổi, bổ sung.
+DDCproperty.vn có quyền sửa đổi, bổ sung Quy định đăng tin này tại từng thời điểm nhằm phù hợp với hoạt động cung cấp dịch vụ và quy định của pháp luật (nếu có). Mọi sửa đổi, bổ sung sẽ được thông báo đến khách hàng và có hiệu lực theo nội dung thông báo. Bằng việc tiếp tục truy cập nền tảng hoặc/và sử dụng dịch vụ sau thời điểm sửa đổi, bổ sung có hiệu lực, khách hàng được xem là đã đọc, hiểu rõ và đồng ý chịu sự ràng buộc bởi Quy định đăng tin được sửa đổi, bổ sung.
