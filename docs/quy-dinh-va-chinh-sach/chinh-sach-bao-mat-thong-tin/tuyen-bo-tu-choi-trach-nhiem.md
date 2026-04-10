@@ -7,9 +7,6 @@ description: Giới hạn trách nhiệm trong các trường hợp nằm ngoài
 
 # 15. Tuyên bố từ chối trách nhiệm
 
-DDCProperty không chịu trách nhiệm cho:
+Chúng tôi không chịu trách nhiệm về bất kỳ việc Bạn tự nguyện tiết lộ Thông tin của mình cho những người dùng khác liên quan đến việc sử dụng Dịch vụ.
 
-- Thông tin người dùng tự nguyện chia sẻ với bên thứ ba ngoài nền tảng.
-- Sự cố phát sinh do lỗi từ bên thứ ba hoặc nguyên nhân khách quan ngoài tầm kiểm soát hợp lý.
-- Thiệt hại gián tiếp do người dùng không tuân thủ khuyến nghị an toàn tài khoản.
-
+Chúng tôi cũng không chịu trách nhiệm giải quyết trong trường hợp thông báo của Bạn không đến được Chúng tôi, hoặc các lỗi phát sinh từ kỹ thuật, đường truyền, phần mềm hoặc các lỗi khác không do lỗi của Chúng tôi.

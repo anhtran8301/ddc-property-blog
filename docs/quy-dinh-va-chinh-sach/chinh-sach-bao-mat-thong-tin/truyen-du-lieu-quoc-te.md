@@ -7,7 +7,4 @@ description: Nguyên tắc truyền dữ liệu qua biên giới theo quy địn
 
 # 7. Truyền dữ liệu quốc tế
 
-- Dữ liệu có thể được lưu trữ hoặc xử lý tại hạ tầng đặt ở nhiều quốc gia.
-- Việc truyền dữ liệu quốc tế phải tuân thủ quy định pháp luật và tiêu chuẩn bảo mật tương ứng.
-- DDCProperty áp dụng biện pháp kỹ thuật cần thiết để bảo vệ dữ liệu trong quá trình truyền.
-
+Trong trường hợp phát sinh hoạt động truyền dữ liệu quốc tế, Chúng tôi sẽ thực hiện theo quy định pháp luật hiện hành và áp dụng các biện pháp bảo mật cần thiết để bảo vệ Dữ liệu cá nhân của Bạn.

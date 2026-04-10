@@ -7,9 +7,4 @@ description: Lưu ý về liên kết ngoài và trách nhiệm khi truy cập w
 
 # 8. Trang web của bên thứ ba
 
-Nền tảng có thể chứa liên kết đến website/dịch vụ của bên thứ ba.
-
-- Mỗi website bên thứ ba có chính sách riêng.
-- DDCProperty không chịu trách nhiệm đối với nội dung hoặc chính sách trên các website đó.
-- Bạn nên đọc kỹ điều khoản và chính sách bảo mật trước khi cung cấp thông tin.
-
+Đôi khi, Nền tảng có thể chứa các liên kết đến và từ các trang web của các mạng lưới đối tác và nhà cung cấp của Chúng tôi. Nếu Bạn nhấp vào liên kết đến bất kỳ trang web nào trong số này, xin lưu ý rằng các trang web đó có chính sách bảo mật riêng và Chúng tôi không chấp nhận bất kỳ trách nhiệm hoặc nghĩa vụ pháp lý nào đối với các chính sách này. Vui lòng kiểm tra các chính sách đó trước khi Bạn gửi bất kỳ Thông tin nào của Bạn đến các trang web này.

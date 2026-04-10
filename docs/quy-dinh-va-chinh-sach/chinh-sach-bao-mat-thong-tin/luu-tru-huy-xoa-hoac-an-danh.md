@@ -7,8 +7,4 @@ description: Nguyên tắc lưu trữ dữ liệu và xử lý dữ liệu khi h
 
 # 6. Lưu trữ, hủy, xóa hoặc ẩn danh
 
-DDCProperty chỉ lưu dữ liệu trong thời gian cần thiết cho mục đích xử lý hợp pháp.
-
-- Hết thời gian lưu trữ, dữ liệu sẽ được hủy, xóa hoặc ẩn danh theo quy trình bảo mật.
-- Thời gian lưu trữ cụ thể có thể khác nhau theo từng loại dữ liệu và nghĩa vụ pháp lý.
-
+Chúng tôi chỉ lưu giữ Dữ liệu cá nhân của Bạn trong khoảng thời gian cần thiết để hoàn thành mục đích thu thập dữ liệu đó. Sau đó, Chúng tôi tìm cách hủy, xóa vĩnh viễn hoặc ẩn danh dữ liệu đó.
