@@ -7,7 +7,7 @@ description: Bật tự động đăng lại tin khi hết hạn — các bướ
 
 # Cách kích hoạt tính năng tự động đăng lại tin đăng
 
-Để tin được **đăng lại tự động** khi vừa hết hạn (theo chính sách nền tảng), bạn thực hiện tương tự luồng sau. Tham khảo [Batdongsan — kích hoạt tự đăng lại](https://trogiup.batdongsan.com.vn/docs/cach-kich-hoat-tinh-nang-tu-dong-dang-lai-tin-dang).
+Để tin được **đăng lại tự động** khi vừa hết hạn (theo chính sách nền tảng), bạn thực hiện tương tự luồng sau.
 
 ## Bước 1
 

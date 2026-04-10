@@ -6,7 +6,7 @@ description: Nguyên tắc hoàn phí khi hạ tin đang hiển thị — tham k
 
 # Quy định hoàn tiền tin đăng
 
-Quy định dưới đây mô tả **nguyên tắc hoàn tiền tự động** khi **hạ tin đang hiển thị** (tham khảo [Batdongsan — Hoàn tiền tin đăng](https://trogiup.batdongsan.com.vn/docs/quy-dinh-hoan-tien-tin-dang)). Số ngày, phần trăm và loại gói **phải khớp với hợp đồng / bảng giá** trên hệ thống thật của bạn.
+Quy định dưới đây mô tả **nguyên tắc hoàn tiền tự động** khi **hạ tin đang hiển thị**. Số ngày, phần trăm và loại gói **phải khớp với hợp đồng / bảng giá** trên hệ thống thật của bạn.
 
 ## 1. Đối với gói VIP và tin thường (ví dụ)
 

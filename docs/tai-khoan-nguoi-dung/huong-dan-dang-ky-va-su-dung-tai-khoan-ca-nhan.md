@@ -14,7 +14,7 @@ sidebar_position: 1
 
 ### Bước 1
 
-Nhấn **Đăng ký** trên header website. Nhập số điện thoại để tạo tài khoản. Hệ thống gửi mã OTP qua Zalo (hoặc SMS) từ OA `batdongsan.com.vn`.
+Nhấn **Đăng ký** trên header website. Nhập số điện thoại để tạo tài khoản. Hệ thống gửi mã OTP qua Zalo (hoặc SMS) từ OA `ddcproperty.com.vn`.
 
 ### Bước 2
 
