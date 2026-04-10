@@ -7,8 +7,6 @@ description: Giải đáp về banner, bài PR, dự án tiêu biểu, fanpage, 
 
 # Câu hỏi liên quan đến Sản phẩm dịch vụ ngoài tin đăng
 
-Nội dung tham khảo từ [Batdongsan](https://trogiup.batdongsan.com.vn/docs/cau-hoi-lien-quan-den-spdv-ngoai-tin-dang), được điều chỉnh theo bối cảnh DDCProperty.
-
 ## Các dịch vụ ngoài tin đăng gồm gì?
 
 Ngoài sản phẩm tin đăng, hệ thống có thể cung cấp thêm các gói quảng bá như banner, bài PR, giới thiệu dự án, truyền thông mạng xã hội hoặc sự kiện.

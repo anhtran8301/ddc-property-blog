@@ -7,8 +7,6 @@ description: Cách xử lý lỗi phổ biến khi đăng tin, tài khoản, tha
 
 # Hướng dẫn xử lý lỗi & Khiếu nại thường gặp
 
-Nội dung tham khảo từ [Batdongsan](https://trogiup.batdongsan.com.vn/docs/huong-dan-xu-ly-loi-va-khieu-nai-thuong-gap-1), được biên soạn lại cho DDCProperty.
-
 ## I. Một số lỗi thường gặp
 
 ### 1) Lỗi khi đăng tin và hiển thị tin
