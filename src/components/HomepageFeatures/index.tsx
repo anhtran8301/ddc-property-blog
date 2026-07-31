@@ -13,81 +13,6 @@ type CategoryCard = {
   icon: ReactNode;
 };
 
-function BuildingStoreIcon(): ReactNode {
-  return (
-    <svg className={styles.cardIconSvg} viewBox="0 0 24 24" aria-hidden>
-      <path
-        d="M3 21h18M4 21V8l8-4 8 4v13M9 11h6M9 15h6M10 21v-3h4v3"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.8"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-  );
-}
-
-function WalletIcon(): ReactNode {
-  return (
-    <svg className={styles.cardIconSvg} viewBox="0 0 24 24" aria-hidden>
-      <path
-        d="M4 7a2 2 0 0 1 2-2h11a3 3 0 0 1 3 3v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V7Zm0 3h16M16.5 14.5h.01"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.8"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-  );
-}
-
-function FileDescriptionIcon(): ReactNode {
-  return (
-    <svg className={styles.cardIconSvg} viewBox="0 0 24 24" aria-hidden>
-      <path
-        d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8l-5-5Zm0 0v5h5M9 13h6M9 17h6"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.8"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-  );
-}
-
-function UserCircleIcon(): ReactNode {
-  return (
-    <svg className={styles.cardIconSvg} viewBox="0 0 24 24" aria-hidden>
-      <path
-        d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Zm0-10a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-4.5 6.8a6 6 0 0 1 9 0"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.8"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-  );
-}
-
-function TagIcon(): ReactNode {
-  return (
-    <svg className={styles.cardIconSvg} viewBox="0 0 24 24" aria-hidden>
-      <path
-        d="M20 10 12 18a2 2 0 0 1-2.83 0L4 12.83V4h8.83L20 11.17A2 2 0 0 1 20 10Zm-11-4h.01"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.8"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-  );
-}
-
 function ShieldCheckIcon(): ReactNode {
   return (
     <svg className={styles.cardIconSvg} viewBox="0 0 24 24" aria-hidden>
@@ -105,40 +30,8 @@ function ShieldCheckIcon(): ReactNode {
 
 const categoryCards: CategoryCard[] = [
   {
-    title: 'Sản phẩm dịch vụ',
-    description:
-      'Kênh quảng bá và tài liệu giới thiệu dịch vụ dành cho bất động sản của bạn.',
-    to: '/docs/category/sản-phẩm-dịch-vụ',
-    icon: <BuildingStoreIcon />,
-  },
-  {
-    title: 'Thanh toán — Nạp tiền',
-    description:
-      'Hướng dẫn về thanh toán, hóa đơn và tra cứu thông tin giao dịch (khi áp dụng).',
-    to: '/docs/category/thanh-toán---nạp-tiền',
-    icon: <WalletIcon />,
-  },
-  {
-    title: 'Hướng dẫn và quy định đăng tin',
-    description: 'Cách đăng tin để thu hút khách hàng tiềm năng và tuân thủ quy định.',
-    to: '/docs/category/hướng-dẫn-và-quy-định-đăng-tin',
-    icon: <FileDescriptionIcon />,
-  },
-  {
-    title: 'Tài khoản người dùng',
-    description: 'Khởi tạo loại tài khoản phù hợp và quản lý tài khoản hiệu quả.',
-    to: '/docs/category/tài-khoản-người-dùng',
-    icon: <UserCircleIcon />,
-  },
-  {
-    title: 'Chương trình khuyến mãi',
-    description: 'Cập nhật các chương trình ưu đãi dành cho khách hàng qua blog.',
-    to: '/docs/category/chương-trình-khuyến-mãi',
-    icon: <TagIcon />,
-  },
-  {
     title: 'Quy định và chính sách',
-    description: 'Các quy định và chính sách khi sử dụng dịch vụ và đăng tin.',
+    description: 'Các quy trình, quy chế và chính sách mới nhất đang áp dụng.',
     to: '/docs/category/quy-định-và-chính-sách',
     icon: <ShieldCheckIcon />,
   },
@@ -193,7 +86,7 @@ const faqEntries: FaqEntry[] = [
     answer: (
       <>
         Toàn bộ tin đăng cần tuân thủ quy định về nội dung, hình ảnh, phân loại và “một tin — một BĐS”. Xem chi tiết tại{' '}
-        <Link to="/docs/quy-dinh-dang-tin-bat-dong-san">Quy định đăng tin</Link>.
+        <Link to="/docs/quy-dinh-va-chinh-sach/quy-che-hoat-dong">Quy chế hoạt động</Link>.
       </>
     ),
   },
